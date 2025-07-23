@@ -1,0 +1,12 @@
+# Ignore Python virtual environment
+blog-env/
+
+# Ignore compiled Python files and caches
+__pycache__/
+*.pyc
+
+# Ignore local SQLite DB (if used at some point)
+db.sqlite3
+
+# Ignore environment variables
+.env
